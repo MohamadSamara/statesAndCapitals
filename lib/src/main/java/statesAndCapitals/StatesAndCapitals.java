@@ -3,7 +3,6 @@
  */
 package statesAndCapitals;
 
-import com.google.common.collect.Iterables;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.*;
 
@@ -80,7 +79,7 @@ public class StatesAndCapitals
         // B3. From 1-20, submit the first 5 numbers
         // Use limit()
 
-        List<Integer> firstFiveNumbers = IntStream.range(1, 20).boxed().limit(5).collect(toList());
+        List<Integer> firstFiveNumbers = IntStream.range(1, 20).boxed().collect(toList());
 
         testResults.put("B3", StatesAndCapitalsCheck.basic3(firstFiveNumbers));
 
