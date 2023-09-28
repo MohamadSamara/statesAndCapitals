@@ -4,6 +4,6 @@
 
 ## How you can run my code 
 #### 1- Open my code on IntelliJ.
-#### 2- Add test configuration from edit configurations setting.
-#### 3- Run the code and watch the result.
+#### 2- Navigate to the StatesAndCapitalsTest class file.
+#### 3- Run the code (Test Class) and watch the result.
 #### 4- If you want to see my code directly go [here](https://github.com/MohamadSamara/statesAndCapitals/blob/main/lib/src/main/java/statesAndCapitals/StatesAndCapitals.java).
